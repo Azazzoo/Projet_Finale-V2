@@ -1,0 +1,90 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-color: #d5d7dd;
+    height: 100VH;
+}
+::-webkit-input-placeholder {
+    text-align: center;}
+.row{
+    margin: .25rem;
+}
+.row2{
+    display: flex;
+}
+.container{
+    border: red solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 25rem;
+    background-color: white;
+
+}
+.container1{
+    background: #3c1b5c;
+    border: red solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 95vw;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 60vw;
+}
+.boite3{
+    align-self: center;
+}
+label{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 12rem;
+}
+.boutton{
+    margin: 1rem;
+}
+.erreur{
+    text-align: center;
+    margin: .25rem auto;
+    color: #fc4d2e;
+    border: #fc4d2e solid 1px;
+    border-radius: 5px;
+    width: 12rem;
+    font-size: small;
+}
+.visible{
+    display: none;
+}
+.boite{
+    display: flex;
+    margin: auto;
+}
+.sous-titre{
+    text-align: center;
+    color: #d5d7dd;
+    padding: 5px;
+    font-size: 12pt;
+}
+footer {
+    background-color: #3c1b5c;
+    padding: auto;
+    padding-top: 1.125rem;
+
+}
+.fenetre{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a{
+    color: #ec8a0b;
+}

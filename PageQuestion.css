@@ -1,0 +1,56 @@
+
+body{
+    background-color: #d5d7dd;
+    height: 100VH;
+}
+.container1{
+    background:  #3c1b5c;
+    border: red solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 95vw;
+    justify-content: center;
+}
+.container2{
+    width: 35rem;
+    margin: 1rem ;
+}
+.container3{
+    padding: 1rem;
+    width: 80vw;
+    margin: 1rem auto;
+
+}
+#question{
+
+    margin: 1rem;
+    width: 85%;
+    height: 15rem;
+}
+.titre{
+    margin: 1rem;
+    width: 85%;
+}
+.sous-titre{
+    text-align: center;
+    color: #d5d7dd;
+    padding: 5px;
+    font-size: 12pt;
+}
+footer {
+    background-color: #3c1b5c;
+    padding: auto;
+    padding-top: 1.125rem;
+
+}
+.btn{
+    background-color: #ec8a0b;
+    border: #ec8a0b;
+    color: white;
+}
+.card-header{
+    background-color: #216497;
+    color: #d5d7dd;
+    margin: .25rem;
+}

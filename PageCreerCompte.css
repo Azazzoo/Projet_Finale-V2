@@ -1,0 +1,77 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+::-webkit-input-placeholder {
+    text-align: center;}
+.row{
+    margin: .25rem;
+}
+.row2{
+    display: flex;
+}
+.container{
+    border: red solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 25rem;
+
+}
+label{
+    display: flex;
+    justify-content: center;
+}
+.boutton{
+    margin: 1rem;
+}
+input{
+    font-family: 'Work Sans', sans-serif;
+    width: 15rem;
+}
+
+.valid:focus:invalid{
+    background-image:url("wrong-icon.png") ;
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: top right ;
+}
+.container1{
+    background: darkslateblue;
+    border: darkslateblue solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 95vw;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 60vw;
+}
+.erreur{
+    text-align: center;
+    margin: .25rem auto;
+    color: darkslateblue;
+    border: darkslateblue solid 1px;
+    border-radius: 5px;
+    width: 12rem;
+    font-size: small;
+}
+.visible{
+    display: none;
+}
+.valide:focus:invalid{
+    background-image:url("wrong-icon.png") ;
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: top right ;
+}
+.valide:focus:valid{
+    background-image:url("tick.png") ;
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: top right ;
+}
+
