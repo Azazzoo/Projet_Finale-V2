@@ -19,15 +19,14 @@
             </a>
         </div>
     </nav>
-    <form >
+    <form method="post" action="PageQuestion.html">
         <div class="container col-lg-6 boite3 ">
             <h1 class="row justify-content-center">Connectez-Vous</h1>
             <label class="row" for="email" >Courriel</label>
             <input class="row m-auto valide" type="email" name="email" id="email" placeholder="courriel@domaine.com" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
-            <p class="erreur visible" id="erreuremail">Les mots de passe ne sont pas identique.</p>
-            <label class="row" for="password2" >Mot de passe</label>
-            <input class="row m-auto valide" type="password" name="password" id="password2"  placeholder="8 Caractères min" required >
-            <p class="erreur visible" id="erreurmdp">Le mot de passe ou l'adresse couriel est erroné</p>
+            <label class="row" for="password" >Mot de passe</label>
+            <input class="row m-auto valide" type="password" name="password" id="password"  placeholder="8 Caractères min" required >
+            <p class="erreur visible" id="erreurconnection">Le mot de passe ou l'adresse couriel est erroné</p>
             <div class="row2 justify-content-center">
                 <input class="boutton col-5" type="submit" id="submit2" value="Connection">
                 <input class="boutton col-5" type="reset" value="Annuler">

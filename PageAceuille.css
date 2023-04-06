@@ -79,7 +79,7 @@ footer {
 
 }
 .fenetre{
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -88,3 +88,14 @@ footer {
 a{
     color: #ec8a0b;
 }
+
+#erreurtelephone{
+    width: 15rem;
+}
+.form-control{
+    width: 12rem;
+}
+.form-control:valid{
+
+}
+
